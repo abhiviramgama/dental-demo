@@ -23,8 +23,9 @@ export function Hero() {
         <ul className="ticks"><li>Personalized Dental Care</li><li>Modern Treatment Approach</li><li>Patient-First Experience</li></ul>
       </motion.div>
       <div className="hero-art" role="img" aria-label="Illustration of a healthy smiling tooth">
-        <svg viewBox="0 0 64 64"><path d="M32 8c-7-5-20-2-20 12 0 9 4 12 5 22 1 8 4 14 8 14 5 0 4-12 7-12s2 12 7 12c4 0 7-6 8-14 1-10 5-13 5-22C52 6 39 3 32 8z" fill="#fff"/><path d="M24 24q8 8 16 0" stroke="#0B6B66" strokeWidth="2.5" strokeLinecap="round" fill="none"/></svg>
+        <svg viewBox="0 0 64 64"><path d="M32 8c-7-5-20-2-20 12 0 9 4 12 5 22 1 8 4 14 8 14 5 0 4-12 7-12s2 12 7 12c4 0 7-6 8-14 1-10 5-13 5-22C52 6 39 3 32 8z" fill="#0B6B66"/><path d="M24 24q8 8 16 0" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" fill="none"/></svg>
         <div className="float f1"><Smile size={20} /><span><b>Your Smile Matters</b><small>Care tailored to you</small></span></div>
+        <div className="float f3"><ShieldCheck size={20} /><span><b>Gentle &amp; Modern</b><small>Comfort-first treatment</small></span></div>
         <div className="float f2"><Heart size={20} /><span><b>Patient-First Care</b><small>Comfort at every visit</small></span></div>
       </div>
     </div></section>

@@ -5,6 +5,12 @@ import { services } from '../data/services';
 
 export default function Footer() {
   return (
+    <>
+    <section className="cta-band"><div className="container">
+      <h2>Ready for a healthier, more confident smile?</h2>
+      <p>Book a visit and let our team take care of the rest.</p>
+      <Link to="/contact#book" className="btn btn-gold">Book an Appointment</Link>
+    </div></section>
     <footer className="footer">
       <div className="container foot-grid">
         <div>
@@ -32,5 +38,6 @@ export default function Footer() {
         <button className="btn btn-light" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><ArrowUp size={16} /> Top</button>
       </div>
     </footer>
+    </>
   );
 }
